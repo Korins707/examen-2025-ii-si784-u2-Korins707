@@ -1,0 +1,497 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\HP\\upt-repositorio-tests\\playwright.config.ts",
+    "rootDir": "C:/Users/HP/upt-repositorio-tests/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 7
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/HP/upt-repositorio-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 7
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/HP/upt-repositorio-tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/HP/upt-repositorio-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 7
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/HP/upt-repositorio-tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/HP/upt-repositorio-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 7
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/HP/upt-repositorio-tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "debug-selectors.spec.ts",
+      "file": "debug-selectors.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Debug: Inspeccionar selectores de la página",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9505,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "=== ESTRUCTURA DE LA PÁGINA ===\n"
+                    },
+                    {
+                      "text": ".search-results: 0 elementos encontrados\n"
+                    },
+                    {
+                      "text": ".item-list: 0 elementos encontrados\n"
+                    },
+                    {
+                      "text": "[class*=\"result\"]: 0 elementos encontrados\n"
+                    },
+                    {
+                      "text": "table: 0 elementos encontrados\n"
+                    },
+                    {
+                      "text": "ul li: 25 elementos encontrados\n"
+                    },
+                    {
+                      "text": "div[class*=\"item\"]: 13 elementos encontrados\n"
+                    },
+                    {
+                      "text": "article: 0 elementos encontrados\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-01T02:28:02.400Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\debug-selectors-Debug-Inspeccionar-selectores-de-la-página-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\debug-selectors-Debug-Inspeccionar-selectores-de-la-página-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dd4f46c1798ab3bca452-4cd9253584a2a63813fa",
+          "file": "debug-selectors.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "repositorio-upt.spec.ts",
+      "file": "repositorio-upt.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Búsqueda de Tesis de Tecnología - Repositorio UPT",
+          "file": "repositorio-upt.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "CA1: Búsqueda de tecnología Web - debe retornar resultados",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 8847,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Búsqueda de \"tecnología web\" ejecutada correctamente\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-11-01T02:28:02.437Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-7a78a----debe-retornar-resultados-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-7a78a----debe-retornar-resultados-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "258b767f7772b3f11331-ae0f3f44f2ba79889dd3",
+              "file": "repositorio-upt.spec.ts",
+              "line": 11,
+              "column": 7
+            },
+            {
+              "title": "CA1: Búsqueda de Base de Datos - debe retornar resultados",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 8032,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Búsqueda de \"base de datos\" ejecutada correctamente\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-11-01T02:28:02.436Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-d3347----debe-retornar-resultados-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-d3347----debe-retornar-resultados-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "258b767f7772b3f11331-e90df27efe0e3a621232",
+              "file": "repositorio-upt.spec.ts",
+              "line": 37,
+              "column": 7
+            },
+            {
+              "title": "CA1: Búsqueda de Desarrollo Móvil - debe retornar resultados",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 8949,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Búsqueda de \"aplicación móvil\" ejecutada correctamente\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-11-01T02:28:02.444Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-3c4fa----debe-retornar-resultados-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-3c4fa----debe-retornar-resultados-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "258b767f7772b3f11331-1b234615cd5198bd852f",
+              "file": "repositorio-upt.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "CA1: Búsqueda de Inteligencia de Negocios - debe retornar resultados",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 9044,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Búsqueda de \"inteligencia de negocios\" ejecutada correctamente\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-11-01T02:28:02.465Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-60f85----debe-retornar-resultados-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-60f85----debe-retornar-resultados-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "258b767f7772b3f11331-6c3df72e9abbb992caa5",
+              "file": "repositorio-upt.spec.ts",
+              "line": 79,
+              "column": 7
+            },
+            {
+              "title": "CA1: Búsqueda de Inteligencia Artificial - debe retornar resultados",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 8855,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Búsqueda de \"inteligencia artificial\" ejecutada correctamente\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-11-01T02:28:02.480Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-c99e8----debe-retornar-resultados-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-c99e8----debe-retornar-resultados-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "258b767f7772b3f11331-c2a3aad46200b2a38f6e",
+              "file": "repositorio-upt.spec.ts",
+              "line": 100,
+              "column": 7
+            },
+            {
+              "title": "Verificar accesibilidad del repositorio",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 4422,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "✓ Repositorio accesible correctamente\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-11-01T02:28:02.487Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-3938a-cesibilidad-del-repositorio-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\HP\\upt-repositorio-tests\\test-results\\repositorio-upt-Búsqueda-d-3938a-cesibilidad-del-repositorio-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "258b767f7772b3f11331-a052211ea35ec025ade5",
+              "file": "repositorio-upt.spec.ts",
+              "line": 121,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-11-01T02:28:00.787Z",
+    "duration": 11378.956,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
