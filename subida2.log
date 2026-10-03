@@ -1,0 +1,17 @@
+Archivos a subir: 112
+
+  FALLO .github/workflows/deploy.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/deploy.yml -> 403 Resource not accessible by personal access token
+  FALLO .github/workflows/generate-documentation.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/generate-documentation.yml -> 403 Resource not accessible by personal access token
+  FALLO .github/workflows/infra.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/infra.yml -> 403 Resource not accessible by personal access token
+  FALLO .github/workflows/snyk-semgrep.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/snyk-semgrep.yml -> 403 Resource not accessible by personal access token
+  FALLO .github/workflows/sonar.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/sonar.yml -> 403 Resource not accessible by personal access token
+  10/112 subidos
+  20/112 subidos
+  30/112 subidos
+  40/112 subidos
+  50/112 subidos
+  60/112 subidos
+  70/112 subidos
+  80/112 subidos
+  90/112 subidos
+  100/112 subidos
