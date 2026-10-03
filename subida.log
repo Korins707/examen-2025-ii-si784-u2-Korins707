@@ -1,0 +1,28 @@
+Archivos a subir: 111
+
+  FALLO .env: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.env -> 409 is at 401c3bc5637d62b13239021d49b2e8d94b30e2fb but expected d364b1bc5c0c43c77d7e6cd28c1658d5ed5b0e47
+  FALLO .github/workflows/deploy.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/deploy.yml -> 403 Resource not accessible by personal access token
+  FALLO .github/workflows/generate-documentation.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/generate-documentation.yml -> 403 Resource not accessible by personal access token
+  FALLO .github/workflows/infra.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/infra.yml -> 403 Resource not accessible by personal access token
+  FALLO .github/workflows/snyk-semgrep.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/snyk-semgrep.yml -> 403 Resource not accessible by personal access token
+  FALLO .github/workflows/sonar.yml: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.github/workflows/sonar.yml -> 403 Resource not accessible by personal access token
+  FALLO .gitignore: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/.gitignore -> 409 is at fa11e7e7247806b9103177ba21fe707810540793 but expected c8810477b81fadf78f4e8b1b07533a6f1f1f3c80
+  10/111 subidos
+  20/111 subidos
+  FALLO backend/Inventario.Celulares.Core/Enumeraciones/DeviceStatus.cs: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/backend/Inventario.Celulares.Core/Enumeraciones/DeviceStatus.cs -> 409 is at 215972c6463534af5425c0ff63d39ba655e96f61 but expected 1313db701720d4df86b0a86457c036b0dc5e264e
+  FALLO backend/Inventario.Celulares.Core/Enumeraciones/UserRole.cs: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/backend/Inventario.Celulares.Core/Enumeraciones/UserRole.cs -> 409 is at ee3f5cb937b6bcf8b467f9d2a26faf5b289eeffb but expected cc80f778b27f3ec04db82f33079ff2231b9615d9
+  30/111 subidos
+  FALLO backend/Inventario.Celulares.Infrastructure/Persistence/Configurations/MovementConfiguration.cs: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/backend/Inventario.Celulares.Infrastructure/Persistence/Configurations/MovementConfiguration.cs -> 409 is at 17cd7bc9701abe33f27ea3ae6c4cd19dfd987381 but expected 98ba48ceb8ccdfb7ca1bcec05e9b6975fa5f84f0
+  FALLO backend/Inventario.Celulares.Infrastructure/Security/PasswordHasher.cs: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/backend/Inventario.Celulares.Infrastructure/Security/PasswordHasher.cs -> 409 is at 170675e22c6061b156a828a63df358f0bfb3607f but expected 43f6cfdf823afa11c48bcb76d492645d3936ad75
+  FALLO backend/Inventario.Celulares.Infrastructure/Services/InventoryService.cs: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/backend/Inventario.Celulares.Infrastructure/Services/InventoryService.cs -> 409 is at 60c20428f881a1aee02d24093c62aac95efcbf9b but expected 170675e22c6061b156a828a63df358f0bfb3607f
+  40/111 subidos
+  FALLO backend/Inventario.Celulares.Tests/DevicesApiTests.cs: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/backend/Inventario.Celulares.Tests/DevicesApiTests.cs -> 409 is at 9107c6d51743ffc9c2e5bf12065bc50baaa6815d but expected 8efe3f41bee4135871876ed0c007f84b9b9b864d
+  50/111 subidos
+  60/111 subidos
+  FALLO frontend/package-lock.json: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/frontend/package-lock.json -> 409 is at a6f69cf9dd6e86ba668892f8b0345533f64ed575 but expected 7928692d9bed5ef8a53e088dc5737a259f32c22e
+  FALLO frontend/src/components/Alert.tsx: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/frontend/src/components/Alert.tsx -> 409 is at b8fbcc6d38dedeea9a00c56c38d355fcb27f8230 but expected a0381083ba282ff026f5d55a30b5668e11716f2a
+  FALLO frontend/src/components/ConfirmDialog.tsx: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/frontend/src/components/ConfirmDialog.tsx -> 409 is at 92c5d222fe4a4ec18f93a52a3571d39027a8b4d8 but expected b8fbcc6d38dedeea9a00c56c38d355fcb27f8230
+  FALLO frontend/src/components/Layout.tsx: PUT /repos/Korins707/examen-2025-ii-si784-u2-Korins707/contents/frontend/src/components/Layout.tsx -> 409 is at 2bac317fcbfbec52ed75c459ea3c700142fa845c but expected 2e40cb3b2407ae581eaf1452179586c16d67c475
+  70/111 subidos
+  80/111 subidos
+  90/111 subidos
