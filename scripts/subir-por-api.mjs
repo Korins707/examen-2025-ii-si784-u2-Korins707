@@ -143,15 +143,19 @@ async function principal() {
       errores += 1;
       console.error(`  FALLO ${rutaRelativa}: ${error.message}`);
       // Reintentar una vez: puede ser un fallo transitorio de la API.
-      if (error.message.includes('422') || error.message.includes('sha')) {
-        await esperar(1200);
+      if (
+        error.message.includes('422')
+        || error.message.includes('sha')
+        || error.message.includes('409')
+      ) {
+        await esperar(900);
         try {
           await subirArchivo(rutaRelativa, contenido);
           subidos += 1;
           errores -= 1;
           console.log(`  OK (reintento) ${rutaRelativa}`);
         } catch (errorReintento) {
-          console.error(`  FALLO tambien en reintento: ${rutaRelativa}: ${errorReintento.message}`);
+          console.error(`  FALLO en reintento: ${rutaRelativa}: ${errorReintento.message}`);
         }
       }
     }
